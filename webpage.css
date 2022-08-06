@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-image: url(imgs/wp6159088.jpeg)
+  
+}
+
+.logo {
+  width: 175px;
+  cursor: pointer; 
+}
+
+
+.navbar {
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  color: #000000;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
+.button:active {
+  color: white;
+  background-color: rgb(48, 196, 169);
+}
+
+.hire-me {
+  color: #000000;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.hire-me:hover {
+color:#ffffff;
+background-color: #000000;
+}
+
+.hire-me:active {
+  color: white;
+  background-color: #018897;
+}
+
+.content {
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+h1{
+font-size: 80px;
+margin: 10px 0 30px;
+line-height: 80px;
+}
+
+h2{
+  font-size: 20px;
+  margin: 10px 0 30px;
+  line-height: 30px;
+}
+  
+
+.side-bar {
+  width: 80px;
+  height: 100vh;
+  background: linear-gradient(#018897, #3eab74);
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
+
+.menu {
+  display: block;
+  width: 30px;
+  margin: 40px auto 0;
+  cursor: pointer;
+}
+
+.git-acc img {
+ width: 25px;
+ margin: 5px auto;
+ cursor: pointer;
+}
+
+
+.git-acc img {
+  height: 46px;
+  width: 46px;
+}
+
+.git-acc {
+  width: 50px;
+  text-align: center;
+  position: absolute;
+top: 25%; 
+transform: translateY(-60%);
+margin-left: 15px;
+}
+
+
+.git-acc img:hover{
+  box-shadow: 5px 5px 5px #ffffff;
+}
+
+.git-acc img:active{
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.git-acc img {
+  width: 50px;
+  height: 50px;
+  }
+
+.clouds img{
+width: 50px;
+animation: cloud 7s linear infinite;
+}
+
+.clouds {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -375px;
+}
+
+@keyframes cloud {
+  0%{
+transform: translateY(0);
+opacity: 0;  
+}
+
+50%{
+  
+  opacity: 1;  
+  }
+
+  70%{
+
+    opacity: 1;  
+    }
+
+   100%{
+    transform: translateY(-80vh);
+      opacity: 0;  
+      }
+}
+
+.clouds img:nth-child(1) {
+  animation-delay: 2s;
+  width: 500px;
+}
+
+.clouds img:nth-child(2) {
+  animation-delay: 3s;
+  width: 300px;
+}
+
+.clouds img:nth-child(3) {
+  animation-delay: 1s;
+  width: 400px;
+}
+
+.clouds img:nth-child(4) {
+  animation-delay: 5s;
+  width: 450px;
+}
+
+.clouds img:nth-child(5) {
+  animation-delay: 4s;
+  width: 250px;
+}
+
+
+.scroll-bar{
+  right: 0;
+  top: 0;
+}
+
